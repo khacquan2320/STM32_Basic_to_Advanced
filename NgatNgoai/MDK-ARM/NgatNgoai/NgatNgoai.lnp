@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"ngatngoai\startup_stm32f103xb.o"
+"ngatngoai\main.o"
+"ngatngoai\stm32f1xx_it.o"
+"ngatngoai\stm32f1xx_hal_msp.o"
+"ngatngoai\stm32f1xx_hal_gpio_ex.o"
+"ngatngoai\stm32f1xx_hal_tim.o"
+"ngatngoai\stm32f1xx_hal_tim_ex.o"
+"ngatngoai\stm32f1xx_hal.o"
+"ngatngoai\stm32f1xx_hal_rcc.o"
+"ngatngoai\stm32f1xx_hal_rcc_ex.o"
+"ngatngoai\stm32f1xx_hal_gpio.o"
+"ngatngoai\stm32f1xx_hal_dma.o"
+"ngatngoai\stm32f1xx_hal_cortex.o"
+"ngatngoai\stm32f1xx_hal_pwr.o"
+"ngatngoai\stm32f1xx_hal_flash.o"
+"ngatngoai\stm32f1xx_hal_flash_ex.o"
+"ngatngoai\stm32f1xx_hal_exti.o"
+"ngatngoai\system_stm32f1xx.o"
+--strict --scatter "NgatNgoai\NgatNgoai.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "NgatNgoai.map" -o NgatNgoai\NgatNgoai.axf

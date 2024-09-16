@@ -1,0 +1,30 @@
+Dependencies for Project 'ADC Siggle', Target 'ADC Siggle': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
+F (startup_stm32f103xb.s)(0x6634AAF1)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\_ADC_Siggle-IC:\Users\NgocTuan\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\NgocTuan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include--pd "__UVISION_VERSION SETA 531" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1" --pd "_RTE_ SETA 1"--list startup_stm32f103xb.lst --xref -o "adc siggle\startup_stm32f103xb.o" --depend "adc siggle\startup_stm32f103xb.d")
+F (../Core/Src/main.c)(0x6634AAEF)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_ADC_Siggle-IC:\Users\NgocTuan\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\NgocTuan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o "adc siggle\main.o" --omf_browse "adc siggle\main.crf" --depend "adc siggle\main.d")
+I (../Core/Inc/main.h)(0x61879749)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x60C6000B)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x61879749)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x60C6000B)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x60C6000B)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x60C6000B)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x60C6000B)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x60C5FFE1)
+F (../Core/Src/stm32f1xx_it.c)(0x6634AAEE)()
+F (../Core/Src/stm32f1xx_hal_msp.c)(0x6634AAEE)()
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c)(0x65FC505D)()
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c)(0x65FC505D)()
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c)(0x65FC505D)()
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c)(0x65FC505D)()
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c)(0x65FC505D)()
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c)(0x65FC505D)()
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c)(0x65FC505D)()
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c)(0x65FC505D)()
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c)(0x65FC505D)()
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c)(0x65FC505D)()
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c)(0x65FC505D)()
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c)(0x65FC505D)()
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c)(0x65FC505D)()
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c)(0x65FC505D)()
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c)(0x65FC505D)()
+F (../Core/Src/system_stm32f1xx.c)(0x60C6000B)()

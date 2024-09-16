@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"controll_car_bluetooth\startup_stm32f103xb.o"
+"controll_car_bluetooth\main.o"
+"controll_car_bluetooth\stm32f1xx_it.o"
+"controll_car_bluetooth\stm32f1xx_hal_msp.o"
+"controll_car_bluetooth\stm32f1xx_hal_gpio_ex.o"
+"controll_car_bluetooth\stm32f1xx_hal_tim.o"
+"controll_car_bluetooth\stm32f1xx_hal_tim_ex.o"
+"controll_car_bluetooth\stm32f1xx_hal.o"
+"controll_car_bluetooth\stm32f1xx_hal_rcc.o"
+"controll_car_bluetooth\stm32f1xx_hal_rcc_ex.o"
+"controll_car_bluetooth\stm32f1xx_hal_gpio.o"
+"controll_car_bluetooth\stm32f1xx_hal_dma.o"
+"controll_car_bluetooth\stm32f1xx_hal_cortex.o"
+"controll_car_bluetooth\stm32f1xx_hal_pwr.o"
+"controll_car_bluetooth\stm32f1xx_hal_flash.o"
+"controll_car_bluetooth\stm32f1xx_hal_flash_ex.o"
+"controll_car_bluetooth\stm32f1xx_hal_exti.o"
+"controll_car_bluetooth\system_stm32f1xx.o"
+"controll_car_bluetooth\motor.o"
+"controll_car_bluetooth\pwm.o"
+"controll_car_bluetooth\car.o"
+--strict --scatter "Controll_Car_bluetooth\Controll_Car_bluetooth.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Controll_Car_bluetooth.map" -o Controll_Car_bluetooth\Controll_Car_bluetooth.axf

@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"ds_3231\startup_stm32f103xb.o"
+"ds_3231\main.o"
+"ds_3231\stm32f1xx_it.o"
+"ds_3231\stm32f1xx_hal_msp.o"
+"ds_3231\stm32f1xx_hal_gpio_ex.o"
+"ds_3231\stm32f1xx_hal_i2c.o"
+"ds_3231\stm32f1xx_hal.o"
+"ds_3231\stm32f1xx_hal_rcc.o"
+"ds_3231\stm32f1xx_hal_rcc_ex.o"
+"ds_3231\stm32f1xx_hal_gpio.o"
+"ds_3231\stm32f1xx_hal_dma.o"
+"ds_3231\stm32f1xx_hal_cortex.o"
+"ds_3231\stm32f1xx_hal_pwr.o"
+"ds_3231\stm32f1xx_hal_flash.o"
+"ds_3231\stm32f1xx_hal_flash_ex.o"
+"ds_3231\stm32f1xx_hal_exti.o"
+"ds_3231\stm32f1xx_hal_tim.o"
+"ds_3231\stm32f1xx_hal_tim_ex.o"
+"ds_3231\system_stm32f1xx.o"
+"ds_3231\rtc.o"
+"ds_3231\liquidcrystal_i2c.o"
+--strict --scatter "DS_3231\DS_3231.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "DS_3231.map" -o DS_3231\DS_3231.axf
